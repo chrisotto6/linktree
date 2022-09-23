@@ -1,26 +1,30 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro'
+import { Links } from '../components/links.tsx'
 ---
 
 <Layout title="Chris Otto's Links">
-	<main>
-		<h1>Find Chris Otto Online</h1>
-	</main>
+  <main>
+    <h1>Find Chris Otto</h1>
+    <Links />
+  </main>
 </Layout>
 
 <style>
-	:root {
-		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
-	}
+  :root {
+    --astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+    background: #cfd8d8;
+  }
 
-	h1 {
-		margin: 2rem 0;
-	}
+  h1 {
+    margin: 2rem 0;
+    color: #436a6e;
+  }
 
-	main {
-		margin: auto;
-		padding: 1em;
-		max-width: 60ch;
-	}
-
+  main {
+    margin: auto;
+    padding: 1em;
+    max-width: 60ch;
+    text-align: center;
+  }
 </style>
