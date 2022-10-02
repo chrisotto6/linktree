@@ -1,3 +1,3 @@
 [[edge_functions]]
-  path = '/'
-  function = 'add-stats'
+  path = "/"
+  function = "add-stats"
